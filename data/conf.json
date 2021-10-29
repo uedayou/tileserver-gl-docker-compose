@@ -1,0 +1,29 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "fonts"
+    },
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90,
+      "pngQuantization": false,
+      "png": 90
+    },
+    "maxSize": 2048,
+    "pbfAlias": "pbf"
+  },
+  "styles": {
+    "osm-bright": {
+      "style": "osm-bright-gl-style/style-local.json"
+    },
+    "osm-liberty": {
+      "style": "osm-liberty-gl-style/style-local.json"
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "tiles.mbtiles"
+    }
+  }
+}

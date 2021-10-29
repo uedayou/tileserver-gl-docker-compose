@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  tileserver:
+    image: maptiler/tileserver-gl
+    volumes:
+      - "./data:/data"
+    command: ["-p", "80", "-c", "/data/conf.json"]
+    ports:
+      - "8080:80"

@@ -1,0 +1,6 @@
+[submodule "data/osm-bright-gl-style"]
+	path = data/osm-bright-gl-style
+	url = https://github.com/openmaptiles/osm-bright-gl-style.git
+[submodule "data/osm-liberty-gl-style"]
+	path = data/osm-liberty-gl-style
+	url = https://github.com/uedayou/osm-liberty-gl-style.git
