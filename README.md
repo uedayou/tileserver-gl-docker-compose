@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-$ git clone --recursive htts://github.com/uedayou/tileserver-gl-docker-compose.git
+$ git clone --recursive https://github.com/uedayou/tileserver-gl-docker-compose.git
 $ cd tileserver-gl-docker-compose
 $ cp /path/to/your/tiles.mbtiles mv ./data/
 $ docker-compose up
